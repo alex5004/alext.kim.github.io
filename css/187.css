@@ -1,0 +1,98 @@
+#containerTop{
+	width:60%;
+}
+	
+.navbar-default{
+	background-color: white;
+	height: 70px;
+	min-width:100%;
+	}
+
+	
+
+	
+	/* THIS CONTROLS THE NAV TEXT */
+.navbar-default .navbar-nav> li>a{
+	color: #336E7B;
+	font-size: 15px;
+	}
+	
+ .navbar-brand,
+.navbar-nav li a{
+	height: 68px;
+	margin-left:1px;
+
+	
+	
+	}
+
+.navbar-nav li a{
+	line-height:70px;
+	padding:0 20px;
+
+	
+}
+#carouselPlus{
+	
+	margin-top:100px;
+	
+	}
+
+#carousel{
+	
+	margin-right:70px;
+	
+	}
+
+/* carousel stuff */
+
+#myCarousel .item{
+	height:430px;
+}
+
+#slide1{
+	background: url('../images/187.png') top center no-repeat;
+}
+#slide2{
+	background: url('../images/potato.png')  center no-repeat;
+}
+
+#slide3{
+	background: url('../images/187wall.jpeg') bottom center no-repeat;
+}
+
+.btn-primary a{
+	color:#fff;
+	background-color: #0BE370;
+	}
+.btn-primary {
+	background-color: #0BE370;
+	border:0;
+	}
+
+#column {
+	margin-top:-25px;
+	}
+
+	
+	/* footer stuff */
+.footer {
+position:absolute;
+bottom: 0;
+margin-top: 100px ;
+text-align: center ;
+font-size: 16px ;
+font-family: verdana ;
+width: 100% ;
+height: 70px ;
+background-color: #C8F7C5 ;
+
+}
+
+
+#fb{
+	width: 48px;
+	margin-top:15px;
+	margin-right: 10px;
+	position: left;
+}
