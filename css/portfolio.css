@@ -1,3 +1,7 @@
+html, body{
+    height: 100%;
+}
+
 #pfp {
 	width:300px;
 	 display: block;
@@ -7,16 +11,20 @@
 	
 	}
 
-	
+#containerBot{
+    height: 100%;
+
+}	
 	
 #containerTop{
 	width:60%;
 }
-	
+
 .navbar-default{
-	background-color: white;
-	height: 70px;
+	background-color: #C8F7C5 ;
+	height: 50px;
 	min-width:100%;
+	border:none;
 	}
 
 	
@@ -28,7 +36,7 @@
 	
  .navbar-brand,
 .navbar-nav li a{
-	height: 68px;
+	height: 48px;
 	margin-left:1px;
 	color: red;
 	
@@ -36,7 +44,7 @@
 	}
 
 .navbar-nav li a{
-	line-height:70px;
+	line-height:50px;
 	padding:0 20px;
 	color: red;
 	
@@ -58,21 +66,28 @@
 	color: #336E7B;
 	margin-top: 50px;
 }
+.stuff{ 
+	padding-bottom:120px;
+	}
 	
 .h3{
 	margin-top:100px;
 
 }
+
+#resume{
+	margin-top: 50px;
+	}
 	
 .footer {
-position:absolute;
+position:fixed	;
 bottom: 0;
 margin-top: 100px ;
 text-align: center ;
 font-size: 16px ;
 font-family: verdana ;
 width: 100% ;
-height: 70px ;
+height: 50px ;
 background-color: #C8F7C5 ;
 }
 #fb{
