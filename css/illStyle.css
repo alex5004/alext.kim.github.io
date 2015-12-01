@@ -1,26 +1,65 @@
-.thmb1{ -webkit-animation-delay: .0s;}
-.thmb2{ -webkit-animation-delay: .2s;}
-.thmb3{ -webkit-animation-delay: .4s;}
-.thmb4{ -webkit-animation-delay: .6s;}
-.thmb5{ -webkit-animation-delay: .8s;}
-
-
-
-#containerTop{
-	width:60%;
-}
-	
-.navbar-default{
-	background-color: white;
-	height: 70px;
-	min-width:100%;
-	}
 
 	
 
 	
 	/* THIS CONTROLS THE NAV TEXT */
 
+html, body{
+    height: 100%;
+}
+h2{
+	color: #F1A9A0;
+	}
+.navbar-brand{
+	margin-top:-4px;
+	}
+#pfp {
+	width:300px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	margin-top: 8%;
+	
+	}
+
+#containerBot{
+    height: 100%;
+
+}	
+	
+#containerTop{
+	width:60%;
+}
+
+.navbar-default{
+	background-color: #C8F7C5 ;
+	height: 70px;
+	min-width:100%;
+	border:none;
+	}
+
+	
+	/* THIS CONTROLS THE NAV TEXT */
+.navbar-default .navbar-nav> li>a{
+	color: #336E7B;
+	font-size: 15px;
+	}
+	
+ .navbar-brand,
+.navbar-nav li a{
+	height: 70px;
+	margin-left:1px;
+	color: red;
+	
+	
+	}
+
+.navbar-nav li a{
+	line-height:70px;
+	padding:0 20px;
+	color: red;
+	
+}
 	
 	
 	/* main content */
@@ -31,9 +70,12 @@
 	}
 
 #carousel{
-	
+
 	margin-right:10px;
 	
+	}
+.thmb1, .thmb2, .thmb3, .thmb4, .thmb5{	
+	margin-bottom:40px;
 	}
 #gallery {
 	margin-right:-100px;
@@ -41,13 +83,23 @@
 	}
 
 .row {
-	margin-bottom:30px;
+
 	}
 #column {
 	margin-top:-25px;
 	}
 
-
+.footer {
+position:fixed	;
+bottom: 0;
+margin-top: 100px ;
+text-align: center ;
+font-size: 16px ;
+font-family: verdana ;
+width: 100% ;
+height: 70px ;
+background-color: #C8F7C5 ;
+}
 
 
 	

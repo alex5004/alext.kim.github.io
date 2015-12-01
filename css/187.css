@@ -1,5 +1,5 @@
 
-	
+
 
 #carouselPlus{
 	
@@ -23,11 +23,16 @@
 	background: url('../images/187.png') top center no-repeat;
 }
 #slide2{
-	background: url('../images/potato.png')  center no-repeat;
+	background: url('../images/logoIdea8-2.0.png') bottom center no-repeat;
 }
 
 #slide3{
 	background: url('../images/187wall.jpeg') bottom center no-repeat;
+}
+
+
+#slide4{
+	background: url('../images/potato.png')  center no-repeat;
 }
 
 .btn-primary a{

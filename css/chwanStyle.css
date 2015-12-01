@@ -1,7 +1,10 @@
 .marvel{ 
-	position:center
+	position:right
+	}
+#marvel{
+	margin-left:30%
 	}
 	
-.iframe{
-	left:500px;
+#info{
+	margin-top: 100px;
 	}
