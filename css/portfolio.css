@@ -1,3 +1,7 @@
+
+.resume{ -webkit-animation-delay: .35s;}
+
+
 html, body{
     height: 100%;
 }
@@ -77,11 +81,11 @@ h2{
 }
 
 
-.stuff p{
-	color: #939598;
+ p{
+	color: #336E7B;
 	}
 .stuff h1{
-	color: #939598;
+	color: #F1A9A0;
 }
 .stuff h4{
 	color: #336E7B;
@@ -96,8 +100,9 @@ h2{
 
 }
 
-#resume{
+.resume{
 	margin-top: 50px;
+	text-align:center;
 	}
 	
 .footer {
