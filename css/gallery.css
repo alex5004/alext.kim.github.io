@@ -1,0 +1,17 @@
+#frame1 {
+	width:27%;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	margin-top: 4%;
+	}
+#frame2 {
+	width:27%;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	margin-top:-4%;
+	}
+body{ 
+	background-color: #E6E7E8;
+	}
