@@ -1,5 +1,5 @@
 
-.resume{ -webkit-animation-delay: .35s;}
+
 
 
 html, body{
@@ -8,37 +8,21 @@ html, body{
 h2{
 	color: #F1A9A0;
 	}
-.navbar-brand{
-	margin-top:-4px;
-	}
-#pfp {
-	width:300px;
-	 display: block;
-    margin-left: auto;
-    margin-right: auto; 
-	margin-top: 4%;
-	
-	}
 
-#containerBot{
-    height: 100%;
 
-}	
-	
-#containerTop{
-	width:60%;
+body{
+	background: url('../images/background.png') center no-repeat;
 }
 
-.navbar-default .navbar-nav> li>a:hover{
 	
-	color:#fff;
-	background-color: #9DEF98;
-	}	
-
+#containerTop{
+	width: 80%;
+}
 
 
 .navbar-default{
-	background-color: #C8F7C5 ;
+	margin-top: 1%;
+	background-color: transparent ;
 	height: 70px;
 	min-width:100%;
 	border:none;
@@ -47,8 +31,9 @@ h2{
 	
 	/* THIS CONTROLS THE NAV TEXT */
 .navbar-default .navbar-nav> li>a{
-	color: #336E7B;
-	font-size: 16px;
+	color: #A7A9AC;
+	font-size: 18px;
+	font-family: 'Didact Gothic', sans-serif;
 
 	}
 	
@@ -56,7 +41,6 @@ h2{
 .navbar-nav li a{
 	height: 70px;
 	margin-left:1px;
-	color: red;
 	
 	
 	}
@@ -67,58 +51,14 @@ h2{
 	
 }
 .navbar-default .navbar-nav>.active>a{ 
-	background-color: #C8F7C5;
-	border-bottom: 4px solid #F1A9A0;
+	background-color: transparent;
+	border-bottom: 2px solid black;
 	}
 .navbar-default .navbar-nav>.active>a:hover{ 
-	background-color: #9DEF98;
+	background-color: transparent;
 	}
 
 
-#containerBot{
-	margin-top: 50px;
-	width: 36%;
-}
 
 
- p{
-	color: #336E7B;
-	}
-.stuff h1{
-	color: #F1A9A0;
-}
-.stuff h4{
-	color: #336E7B;
-	margin-top: 50px;
-}
-.stuff{ 
-	padding-bottom:120px;
-	}
-	
-.h3{
-	margin-top:100px;
 
-}
-
-.resume{
-	margin-top: 50px;
-	text-align:center;
-	}
-	
-.footer {
-position:fixed	;
-bottom: 0;
-margin-top: 100px ;
-text-align: center ;
-font-size: 16px ;
-font-family: verdana ;
-width: 100% ;
-height: 70px ;
-background-color: #C8F7C5 ;
-}
-#fb{
-	width: 48px;
-	margin-top:15px;
-	margin-right: 10px;
-	position: left;
-}

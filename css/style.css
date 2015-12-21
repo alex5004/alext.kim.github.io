@@ -1,0 +1,85 @@
+
+
+
+
+html, body{
+    height: 100%;
+}
+
+
+
+body{
+	background: url('../images/background.png') center no-repeat;
+}
+
+/*this controls the width of nav*/
+#containerTop{
+	width: 85%;
+}
+
+
+/*this controls the width of page content*/
+#pageContent{
+	margin-top:1.5%;
+	width: 42%;
+	line-height: 275%;
+	}
+.container-fluid h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #A7A9AC;
+}
+
+
+
+.navbar-default{
+	margin-top: .5%;
+	background-color: transparent ;
+	height: 70px;
+	min-width:100%;
+	border:none;
+	}
+
+	
+	/* THIS CONTROLS THE NAV TEXT */
+.navbar-default .navbar-nav> li>a{
+	color: #A7A9AC;
+	font-size: 18px;
+	font-family: 'Didact Gothic', sans-serif;
+
+	}
+	
+ .navbar-brand,
+.navbar-nav li a{
+	height: 70px;
+	margin-left:1px;
+	
+	
+	}
+
+.navbar-nav li a{
+	line-height:95px;
+	padding:0 20px;
+	
+}
+.navbar-default .navbar-nav>.active>a{ 
+	background-color: transparent;
+	
+	}
+	
+.navbar-default .navbar-nav>.active>a:before{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 1px;
+    bottom: 0;
+    left: 20%;
+    border-bottom: 2px solid black;
+}
+.navbar-default .navbar-nav>.active>a:hover{ 
+	background-color: transparent;
+	}
+
+
+
+
+

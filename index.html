@@ -9,9 +9,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/portfolio.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet">
-
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
+	<link href="css/index.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,7 +25,7 @@
   </head>
   <body>
 	<nav class="navbar navbar-default">
-  <div class="container" id = "containerTop">
+  <div class="container-fluid" id = "containerTop">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -31,48 +34,53 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/brand.png"></a>
+<a class="logo" href="index.html"><img src="images/logo.png" width= "250"></a>
     </div>
-
+	
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
   
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="index.html">About</a></li>
-		<li><a href="works.html">Work</a></li>
-		<li><a href="contact.html">Contact</a></li>
+        <li class="active"><a href="index.html">about</a></li>
+		<li><a href="gallery.html">gallery</a></li>
+		<li><a href="design.html">design</a></li>
+		<li><a href="contact.html">contact</a></li>
+		
        
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-
 <div class = "img animated fadeIn">
-	<img src = "images/pfp2.png" id = "pfp">
+	<img src="images/pfp.png" id = "pfp">
 </div>
 
-	<div class = "stuff">
-		<div class ="container" id = "containerBot">
-			<h1>
-			Hi
-			</h1>
-			<p>
-			My name is Alex Kim and I am an aspiring UX/visual designer. I currently a 3rd year at UCSD studying Cognitive Science
-			with a specialization in Human Computer Interaction.  I have a passion for design and believe that design in its simplest
-			form is packaging customer service into a neat and easy to use product that anyone can use. 
-			</p>
-			
-			<div class = "resume animated fadeInUp">
-				<a href="#" data-toggle="modal" data-target=".pop-up-1">
-					<h1>My Resume</h1>
-				</a>
-			</div>
-		
-		</div>
+<div class = "container-fluid" id = "pageContent">
+	<h1> About Me </h1>
+	<p> Hi. My name is Alex Kim and I am an aspiring UX/Product designer.
+	I believe that design is my calling; not because I am particularly good at 
+	design but because I believe design is ultimately about making good choices
+	and that is an aspiration worth pursuing. 
+	</p>
+	</br>
+	<p>
+	Although my main interest is in design, I also enjoy working with the production
+	side of a team and getting to know the challenges they face. I am comfortable
+	with the main front end development languages and backend languages like Java and Matlab. I also enjoy
+	designing and creating graphic art. 
+	</p>
+</div>
+
+<div class = "colorBar">
+	<div class = "resume animated fadeInUp">
+		<a href="#" data-toggle="modal" data-target=".pop-up-1">
+			<img src="images/resumeLink.png" id = "resume" width="180" class="img-responsive center-block" alt="">
+		</a>
 	</div>
-	
+</div>
+
 <!--  Modal content for resume -->
   <div class="modal fade pop-up-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-1" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -88,16 +96,6 @@
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal mixer image -->
-	
-
-		
-	
-  <div class="footer">
-	<div class= "container">
-      
-	</div>
-  </div>
-
 	
   </body>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
