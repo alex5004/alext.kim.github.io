@@ -24,7 +24,7 @@
 	
 	}
 #icons{
-	width: 90%;
+	width: 100%;
 	}
 	
 .container{
@@ -33,3 +33,7 @@
 body{ 
 	background-color: #E6E7E8;
 	}
+
+.hex2{ -webkit-animation-delay: .3s;}
+.hex3{ -webkit-animation-delay: .5s;}
+.hex4{ -webkit-animation-delay: .7s;}

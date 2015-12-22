@@ -4,16 +4,23 @@ body{
 	}
 
 	
-#pfp {
-	width:37%;
+#pfp2 {
+	width:30%;
 	display: block;
     margin-left: auto;
     margin-right: auto; 
 	margin-top: 2%;
 	}
+#pfp {
+	width: 80%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	margin-top: 5%;
+	}
 
 #pageContent{
-	margin-top:-1.7%
+	margin-top:0%
 	}
 #pageContent2{
 	width: 42%;
@@ -74,5 +81,3 @@ p{
 #column {
 	margin-top:-25px;
 	}
-
-
