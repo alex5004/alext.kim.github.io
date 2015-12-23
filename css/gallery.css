@@ -34,6 +34,31 @@ body{
 	background-color: #E6E7E8;
 	}
 
+@media only screen and (max-width:490px){
+	#frame1{
+	height:270px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	margin-top: 7%;
+	}
+	#frame2{
+	height: 270px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	margin-top: 7%;
+	}
+	#frame3{
+	height: 270px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	margin-top: 7%;
+	}
+
+	}
+	
 .hex2{ -webkit-animation-delay: .3s;}
 .hex3{ -webkit-animation-delay: .5s;}
 .hex4{ -webkit-animation-delay: .7s;}
