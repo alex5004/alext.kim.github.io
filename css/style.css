@@ -121,7 +121,9 @@ padding-bottom: 25%;
     left: 20%;
     border-bottom: none;
 }
-
+.navbar-toggle{
+	margin-top: 20px;
+	}
 .navbar-default .navbar-nav>.active>a:hover{ 
 	background-color: #A7A9AC;
 	}
@@ -130,9 +132,12 @@ padding-bottom: 25%;
 
 
 @media only screen and (max-width:480px){
-	#pageContent{
+#pageContent{
 	margin-top:1.5%;
 	width: 90%;
 	line-height: 275%;
 	}
+#containerTop{
+	width: 100%;
 }
+

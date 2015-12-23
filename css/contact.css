@@ -2,7 +2,7 @@
 	margin-top:5%;
 	}
 input[type=email]{
-	 border: 2px solid #A7A9AC;
+	 border: 1.5px solid #A7A9AC;
 	 border-radius: 3pt;
 	 width: 100%;
 	 font-size: 18px;
@@ -11,7 +11,7 @@ input[type=email]{
   }
   
   input[type=text]{
-	 border: 2px solid #A7A9AC;
+	 border: 1.5px solid #A7A9AC;
 	 border-radius: 3pt;
 	 width: 100%;
 	 font-size: 18px;
@@ -37,7 +37,7 @@ input[type=email]{
   
  textarea{
 	width:100%;
-	border: 2px solid #A7A9AC;
+	border: 1.5px solid #A7A9AC;
 	border-radius: 3pt;
 	font-size: 18px;
 	}
@@ -49,7 +49,7 @@ input[type=email]{
 	width: 80px;
 	float: right;
 	background-color: white;
-	border: 2px solid #A7A9AC;
+	border: 1.5px solid #A7A9AC;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
 	color: #A7A9AC;
