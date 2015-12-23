@@ -19,12 +19,34 @@ input[type=email]{
 	 line-height:30px;
 
   }
+  #pfp {
+	width:38px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	margin-top: 10%;
+	}
+  
+ h3{
+	
+	
+	font-size:20;
+	color: #336E7B;
+	font-family: 'Open Sans', sans-serif;
+	}
+  
+ textarea{
+	width:100%;
+	border: 2px solid #A7A9AC;
+	border-radius: 3pt;
+	font-size: 18px;
+	}
   
     input[type=submit]{
 
-	height: 50px;
+	height: 36px;
 	line-height: 30px;
-	width: 100px;
+	width: 80px;
 	float: right;
 	background-color: white;
 	border: 2px solid #A7A9AC;
@@ -34,6 +56,7 @@ input[type=email]{
 	border-radius: 3pt;
 	margin-top:1%;
   }
+  
  body{ 
 	background-color: #E6E7E8;
 	}

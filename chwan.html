@@ -9,8 +9,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/portfolio.css" rel="stylesheet">
-	<link href="css/chwanStyle.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
+	<link href="css/idea8.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +25,7 @@
   </head>
   <body>
 	<nav class="navbar navbar-default">
-  <div class="container" id = "containerTop">
+  <div class="container-fluid" id = "containerTop">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,60 +34,86 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/brand.png"></a>
+<a class="logo" href="index.html"><img src="images/logo.png" width= "250"></a>
     </div>
-
+	
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	
-	
       
+  
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">About</a></li>
-		<li class="active"><a href="works.html">Work</a></li>
-		<li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">about</a></li>
+		<li class="active"><a href="gallery.html">gallery</a></li>
+		<li><a href="design.html">design</a></li>
+		<li><a href="contact.html">contact</a></li>
+		
        
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class = "container" id = "info">
-	<div class="col-sm-9" id = "column">
-		<iframe src="https://marvelapp.com/1e46jej?emb=1" id = "marvel" width="300" height="650" allowTransparency="true" frameborder="0"></iframe>
-	</div>
 
-
-
-	<div class="col-sm-3" id = "column">
-			<h2>
-			Chwan Games
-			</h2>
-			
-			<p>
-			Over the summer a group of my friends and I decided to  design and create a website with mini-games that we planned to make.
-			My part in the team project was to lead the design work. Even though we never did end up finishing the site it was a good learning 
-			experience and a humbling one at that. From this project I got to see that design is not only hardwork but work that requires a lot of teamwork.
-			If I were to design this site again I would like to have more user input because I realized we took a very vain approach and simply designed for ourselves.
-			</p>
-			<p>
-			For this project I decided to go with a flat style design since it was a fun and trendy style at the time and one that I was comfortable with implementing.
-			Below are just some of the prototypes and character designs I had in mind.
-			
- 
-			</p>
-			
-			
+<div class = "img animated fadeIn">
+	<div id = "pfp2">
+		<a href="#" data-toggle="modal" data-target=".pop-up-2">
+				<img src="images/frame2Real.png" class="img-responsive center-block" alt="">
+		</a>
 	</div>
 </div>
-	
-  <div class="footer">
-	<div class= "container">
-  
+
+<div class = "container" id = "pageContent">
+	<center><h1>Featured Work: "Chwan Games"</h1></center>
+	<div class = "quickInfo">
+		<center>
+		<p>
+		Platform: Mobile app
+		</p>
+			<p>
+		Resources: Illustrator, html, css, Marvellapp, Java
+		</p>
+		<p>
+		Purpose: Make a game platform like neopets but mobile
+		</p>
+		</center>
 	</div>
+	<h3>Why we started this project</h3>
+	<p>
+	Over the summer a group of my friends and I decided to design and create a website with mini-games 
+	that we planned to make. My part in the team project was to lead the design work. Even though we never 
+	did end up finishing the site it was a good learning experience and a humbling one at that. From this
+	project I got to see that design is not only handwork but work that requires a lot of teamwork. If 
+	I were to design this site again I would like to have more user input because I realized we took a 
+	very vain approach and simply designed for ourselves.
+	</p>
+	
+	<h3> Target Audience </h3>
+	<p>
+	Our target audience for this app were kids and adults who enjoy phone games. Unfortunately we did not get to 
+	interview any body for this project to get user research.
+	</p>
+	
+	<h3> The Result </h3>
+	<p>
+	Ultimately, we did not finish this project. Even though this failure was deemed a failure I learned a lot.
+	For this project we jumped into production way too quickly without even thinking about design. We were all too focused
+	on making a tangible game that we did not even organize our roles, the team's core values, and project management. This lack of
+	communication and willingness to step up as a leader ultimately lead to a slow dwindle for team Chwan. Although we all had passion to 
+	start once that ran out it was decline from their. The biggest take away I got from this was that as a designer I have responsibility to 
+	not only manage the product and make a clear plan but to make sure everyone is on board and held accountable.
+	</p>
+		
+</div>
+	
+<div class = "container" id = "info">
+
+		<center><iframe src="https://marvelapp.com/1e46jej?emb=1"  width="300" height="650" allowTransparency="true" frameborder="0"></iframe></center>
+
+</div>
+ <div class = "bottom">
   </div>
 
-	
+  
   </body>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
