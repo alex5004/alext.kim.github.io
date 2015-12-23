@@ -30,13 +30,15 @@ body{
 }
 
 
-
+.navbar-header{
+	display: inline;
+	}
+	
 .navbar-default{
-	margin-top: .5%;
+
 	background-color: transparent ;
-	height: 70px;
-	min-width:100%;
-	border:none;
+	border-bottom: none;
+
 	}
 
 	
@@ -84,4 +86,53 @@ body{
 .bottom{
 padding-bottom: 25%;
 }
+@media only screen and (max-width:979px){
+	#pageContent{
+	margin-top:1.5%;
+	width: 60%;
+	line-height: 275%;
+	}
 
+}
+
+
+@media only screen and (max-width:768px){
+	#pageContent{
+	margin-top:1.5%;
+	width: 75%;
+	line-height: 275%;
+	}
+	.navbar-default .navbar-nav> li>a{
+	color: #A7A9AC;
+	font-size: 18px;
+	font-family: 'Didact Gothic', sans-serif;
+	line-height:60px;
+	}
+	.navbar-default .navbar-nav>.active>a{ 
+	background-color: #A7A9AC;
+	color:white;
+	}
+	.navbar-default .navbar-nav>.active>a:before{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 1px;
+    bottom: 0;
+    left: 20%;
+    border-bottom: none;
+}
+
+.navbar-default .navbar-nav>.active>a:hover{ 
+	background-color: #A7A9AC;
+	}
+	
+}
+
+
+@media only screen and (max-width:480px){
+	#pageContent{
+	margin-top:1.5%;
+	width: 90%;
+	line-height: 275%;
+	}
+}
