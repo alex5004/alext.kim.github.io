@@ -68,3 +68,10 @@ input[type=email]{
 	padding-top:3%;
 	font-family: 'Open Sans', sans-serif;
 	}
+	
+@media only screen and (max-width:480px){
+	 #pfp {
+	 width: 25px;
+	 }
+
+}
