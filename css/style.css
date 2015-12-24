@@ -24,6 +24,11 @@ body{
 	width: 42%;
 	line-height: 275%;
 	}
+#pageContentog{
+	margin-top:1.5%;
+	width: 42%;
+	line-height: 275%;
+	}
 .container-fluid h1{
 	font-family: 'Open Sans', sans-serif;
 	color: #A7A9AC;
