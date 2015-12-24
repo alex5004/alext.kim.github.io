@@ -5,7 +5,7 @@ body{
 
 	
 #pfp2 {
-	width:30%;
+	width:500px;
 	display: block;
     margin-left: auto;
     margin-right: auto; 
@@ -83,4 +83,13 @@ p{
 
 #column {
 	margin-top:-25px;
+	}
+
+	
+@media only screen and (max-width:510px){
+	#pfp2 {
+	width: 300px;
+	
+	}
+
 	}
