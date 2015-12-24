@@ -97,12 +97,22 @@ padding-bottom: 25%;
 	width: 60%;
 	line-height: 275%;
 	}
+	#pageContentog{
+	margin-top:1.5%;
+	width: 60%;
+	line-height: 275%;
+	}
 
 }
 
 
 @media only screen and (max-width:768px){
 	#pageContent{
+	margin-top:1.5%;
+	width: 75%;
+	line-height: 275%;
+	}
+	#pageContentog{
 	margin-top:1.5%;
 	width: 75%;
 	line-height: 275%;
@@ -138,6 +148,11 @@ padding-bottom: 25%;
 
 @media only screen and (max-width:480px){
 #pageContent{
+	margin-top:1.5%;
+	width: 90%;
+	line-height: 275%;
+	}
+	#pageContentog{
 	margin-top:1.5%;
 	width: 90%;
 	line-height: 275%;
