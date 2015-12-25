@@ -3,13 +3,19 @@ body{
 	background-color: #E6E7E8;
 	}
 
-	
+	#pfp2 {
+	width:500px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	margin-top: 2%;
+	}
 #pfp {
 	width: 500px;
 	display: block;
     margin-left: auto;
     margin-right: auto; 
-	margin-top: 2%;
+	margin-top: 10%;
 	}
 	
 #pfp3 {
