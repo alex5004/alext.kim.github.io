@@ -45,7 +45,9 @@ body{
 	border-bottom: none;
 
 	}
-
+mark{
+	background-color: #E4F1FE;
+	}
 	
 	/* THIS CONTROLS THE NAV TEXT */
 .navbar-default .navbar-nav> li>a{
