@@ -14,7 +14,8 @@ body{
 
 /*this controls the width of nav*/
 #containerTop{
-	width: 85%;
+	margin-top: .5%;
+	width: 75%;
 }
 
 
